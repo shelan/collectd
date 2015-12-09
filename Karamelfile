@@ -5,10 +5,5 @@ dependencies:
       - collectd::install
     global:
       - collectd-ng::default
-  - recipe: collectd::
-    local:
-      - collectd::install
-    global:
-      - collectd-ng::default
 
 
