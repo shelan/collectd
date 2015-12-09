@@ -5,7 +5,7 @@ script 'run_experiment' do
   group node['collectd']['group']
   interpreter "bash"
   code <<-EOM
-
+    echo "i am running"
   EOM
 end
 
